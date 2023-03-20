@@ -1,0 +1,201 @@
+{
+	"main-page": {
+		"content": "Main Page"
+	},
+	"nav": {
+		"main-page": "Main Page",
+		"mechanics": "Mechanics",
+		"cars": "Cars",
+		"repairs": "Repairs"
+	},
+	"list": {
+		"actions": {
+			"title": "Actions",
+			"details": "Details",
+			"edit": "Edit",
+			"delete": "Delete"
+		}
+	},
+	"form": {
+		"actions": {
+			"return": "Return",
+			"edit": "Edit",
+			"cancel": "Cancel"
+		},
+		"decisions": {
+			"yes": "Yes",
+			"no": "No"
+		}
+	},
+	"login": {
+		"title": "Login",
+		"btnLoginLabel": "Log in",
+		"btnLogoutLabel": "Log out",
+		"statusInfo": "You are logged in as"
+	},
+	"mc": {
+		"fields": {
+			"firstName": "First name",
+			"lastName": "Last name",
+			"email": "Email",
+			"password": "Password"
+		},
+		"list": {
+			"title": "Mechanics",
+			"addNew": "Add new mechanic",
+			"noData": "There are no mechanics in database",
+			"pageTitle": "List of mechanics"
+		},
+		"form": {
+			"add": {
+				"pageTitle": "Add mechanic",
+				"btnLabel": "Add mechanic",
+				"confirm": {
+					"header": "Operation confirm",
+					"text": "Mechanic added succsessfully"
+				}
+			},
+			"edit": {
+				"pageTitle": "Edit mechanic",
+				"btnLabel": "Edit mechanic",
+				"confirm": {
+					"header": "Operation confirm",
+					"text": "Mechanic updated succsessfully"
+				}
+			},
+			"details": {
+				"pageTitle": "Mechanic details",
+				"rep": {
+					"title": "Assigned repairs",
+					"notAssigned": "Mechanic is not assigned to any repair"
+				}
+			},
+			"delete": {
+				"pageTitle": "Delete mechanic",
+				"confirm": {
+					"question": "Are you sure you want to delete mechanic",
+					"text": "Mechanic deleted succsessfully"
+				}
+			}
+		}
+	},
+	"cr": {
+		"fields": {
+			"name": "Name",
+			"mileage": "Mileage",
+			"color": "Color"
+		},
+		"list": {
+			"title": "Cars",
+			"addNew": "Add new car",
+			"noData": "There are no cars in database",
+			"pageTitle": "List of cars"
+		},
+		"form": {
+			"add": {
+				"pageTitle": "Add car",
+				"btnLabel": "Add car",
+				"confirm": {
+					"header": "Operation confirm",
+					"text": "Car added succsessfully"
+				}
+			},
+			"edit": {
+				"pageTitle": "Edit car",
+				"btnLabel": "Edit car",
+				"confirm": {
+					"header": "Operation confirm",
+					"text": "Car updated succsessfully"
+				}
+			},
+			"details": {
+				"pageTitle": "Car details",
+				"rep": {
+					"title": "Assigned repairs",
+					"notAssigned": "Car is not assigned to any repair"
+				}
+			},
+			"delete": {
+				"pageTitle": "Delete car",
+				"confirm": {
+					"question": "Are you sure you want to delete car",
+					"text": "Car deleted succsessfully"
+				}
+			}
+		}
+	},
+	"rep": {
+		"fields": {
+			"mechanic": "Mechanic",
+			"car": "Car",
+			"startDate": "Start date",
+			"expectedEndDate": "Expected end date",
+			"price": "Price",
+			"description": "Description"
+		},
+		"list": {
+			"title": "Repairs",
+			"addNew": "Add new repair",
+			"noData": "There are no repairs in database",
+			"pageTitle": "List of repairs"
+		},
+		"form": {
+			"add": {
+				"pageTitle": "Add repair",
+				"btnLabel": "Add repair",
+				"confirm": {
+					"header": "Operation confirm",
+					"text": "Repair added succsessfully"
+				}
+			},
+			"edit": {
+				"pageTitle": "Edit repair",
+				"btnLabel": "Edit repair",
+				"confirm": {
+					"header": "Operation confirm",
+					"text": "Repair updated succsessfully"
+				}
+			},
+			"details": {
+				"pageTitle": "Repair details"
+			},
+			"delete": {
+				"pageTitle": "Delete repair",
+				"confirm": {
+					"question": "Are you sure you want to delete repair",
+					"text": "Repair deleted succsessfully"
+				}
+			},
+			"select": {
+				"mc": "Select mechanic",
+				"cr": "Select car"
+			}
+		},
+		"fiels": {
+			"mechanic": "rep.fiels.mechanic"
+		}
+	},
+	"validationMessage": {
+		"summary": "Form contains errors",
+		"required": "Field is required",
+		"len_2_50": "Field should contain from 2 to 50 characters",
+		"len_5_50": "Field should contain from 5 to 50 characters",
+		"isEmail": "Field should have correct email",
+		"emailInUse": "This email is already in use",
+		"isNumber": "Field is not a number",
+		"ran_0_10mil": "Field is not in range 0 - 10 000 000",
+		"dateFormat": "Date is not in format yyy-mm-dd",
+		"dateNotLater": "Date should be later than the start date",
+		"ran_0_1mil": "Field is not in range 0 - 1 000 000",
+		"len_max_200": "Field should contain a maximum of 200 characters"
+	},
+	"placeholder": {
+		"len_2_50": "2-50 characters",
+		"emailExample": "e.g. name@ryc.com",
+		"passwordRequirement": "TODO",
+		"ran_0_10mil": "0 - 10 000 000",
+		"dateFormat": "date in format yyyy-MM-dd",
+		"ran_0_1mil": "0 - 1 000 000",
+		"descriptionExample": "e.g. muffler change"
+	}
+}
